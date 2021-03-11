@@ -6,14 +6,77 @@ body {
   line-height: 1.6;
 }
 
+.container {
+  margin: 0 auto;
+}
+
+.features-card {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #fde8cd;
+  border-radius: 8px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.picture {
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.white-strip {
+  background: white;
+  padding 30px;
+  border-top-color: #b68973;
+  width: 400px;
+  margin: auto;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration-color: #eabf9f;
+}
+
+.add-card {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #999b84;
+  border-radius: 8px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.icon-strip {
+  font-size: 30px;
+  background: white;
+  width: 400px;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration-color: #eabf9f;
+}
+
+#sign-off {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
 h1 {
-  color: #b68973;
+  color: #999b84;
   font-family: 'RocknRoll One', sans-serif;
 }
 
 h2 {
   color: #eabf9f;
   font-family: 'RocknRoll One', sans-serif;
+}
+
+h3 {
+  color: #999b84;
 }
 
 .list-inline {
@@ -29,75 +92,27 @@ h2 {
   color: #1e212d;
 }
 
+.social-icon:hover {
+  color: #999b84;
+}
+
 a {
-  color: white;
+  color: #eabf9f;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: white;
 }
-
-.header {
-  text-align: center;
-}
-
-.welcome-card {
-  width: 300px;
-  margin: 0 auto;
-  background-color: #fde8cd;
-  border-radius: 8px;
-}
-
-.profile-pic {
-  border-radius: 5px;
-  box-shadow: 2px 2px 3px grey;
-}
-
-.supporting-pic {
-  border-radius: 5px;
-  box-shadow: 2px 2px 3px grey;
-  width: 50px;
-  height: 50px;
-}
-
 
 img {
   border-radius: 50px;
   max-width: 200px;
   max-height: 200px;
-}
-
-.teal-card {
-  border-radius: 4px;
-  width: 300px;
   margin: 0 auto;
-  background-color: #9fb8ad;
-  padding: 4px;
-}
+  align-items: center;
 
-.white-strip {
-  background: white;
-  padding 30px;
-  border-top-color: #b68973;
-  width: 400px;
-  margin: auto;
-}
-
-.description-strip {
-  background: white;
-  padding 30px;
-  border-top-color: #b68973;
-  width: 400px;
-  margin: auto;
-  border-radius: 20px;
-}
-
-.info {
-  border: 2px dotted #e2d5d5;
-  padding 30px;
-  width: 400px;
-  margin: auto;
 }
 
 @media (max-width: 960px) {
@@ -115,5 +130,4 @@ img {
     width: 300px;
   }
 }
-
 
