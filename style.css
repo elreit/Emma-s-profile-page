@@ -1,0 +1,119 @@
+body {
+  background-color: #faf3e0;
+  font-family: 'Lato', sans-serif;
+  color: #1e212d;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #b68973;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+h2 {
+  color: #eabf9f;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+.list-inline {
+  list-style:none;
+  padding: 0;
+}
+
+.list-inline li{
+  display: inline-block;
+}
+
+.social-icon {
+  color: #1e212d;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  text-align: center;
+}
+
+.welcome-card {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #fde8cd;
+  border-radius: 8px;
+}
+
+.profile-pic {
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px grey;
+}
+
+.supporting-pic {
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px grey;
+  width: 50px;
+  height: 50px;
+}
+
+
+img {
+  border-radius: 50px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.teal-card {
+  border-radius: 4px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: #9fb8ad;
+  padding: 4px;
+}
+
+.white-strip {
+  background: white;
+  padding 30px;
+  border-top-color: #b68973;
+  width: 400px;
+  margin: auto;
+}
+
+.description-strip {
+  background: white;
+  padding 30px;
+  border-top-color: #b68973;
+  width: 400px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.info {
+  border: 2px dotted #e2d5d5;
+  padding 30px;
+  width: 400px;
+  margin: auto;
+}
+
+@media (max-width: 960px) {
+  body {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  body {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  body {
+    width: 300px;
+  }
+}
+
+
