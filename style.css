@@ -4,103 +4,92 @@ body {
   color: #1e212d;
   font-size: 12px;
   line-height: 1.6;
+  /*margin: 0 auto;*/
 }
 
 .container {
+  width: 700px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .features-card {
-  width: 400px;
-  margin: 0 auto;
+  /*width: 400px;*/
+ /* margin: 0 auto;*/
   background-color: #fde8cd;
   border-radius: 8px;
-  margin: 0 auto;
+ /* margin: 0 auto;*/
   text-align: center;
   display: block;
 }
-
 .picture {
   border-radius: 5px;
-  width: 300px;
+  /*width: 300px;*/
   margin: 0 auto;
-  text-align: center;
-  display: block;
+  /*text-align: center;*/
+  /*display: block;*/
 }
-
 .white-strip {
   background: white;
-  padding 30px;
+  /*padding 30px;*/
   border-top-color: #b68973;
-  width: 400px;
-  margin: auto;
+  /*width: 400px;*/
+  /*margin: auto;*/
   border-radius: 8px;
   text-align: center;
   text-decoration-color: #eabf9f;
 }
-
 .add-card {
-  width: 400px;
-  margin: 0 auto;
+  /*width: 400px;*/
+  /*margin: 0 auto;*/
   background-color: #999b84;
   border-radius: 8px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   text-align: center;
   display: block;
 }
-
 .icon-strip {
   font-size: 30px;
   background: white;
-  width: 400px;
-  margin: auto;
+  /*width: 400px;*/
+  /*margin: auto;*/
   border-radius: 20px;
   text-align: center;
   text-decoration-color: #eabf9f;
 }
-
 #sign-off {
-  width: 400px;
-  margin: auto;
+  /*width: 400px;*/
+  /*margin: auto;*/
   text-align: center;
 }
-
 h1 {
   color: #999b84;
   font-family: 'RocknRoll One', sans-serif;
 }
-
 h2 {
   color: #eabf9f;
   font-family: 'RocknRoll One', sans-serif;
 }
-
 h3 {
   color: #999b84;
 }
-
 .list-inline {
   list-style:none;
   padding: 0;
 }
-
 .list-inline li{
   display: inline-block;
 }
-
 .social-icon {
   color: #1e212d;
 }
-
 .social-icon:hover {
   color: #999b84;
 }
-
 a {
   color: #eabf9f;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
   color: white;
@@ -111,23 +100,42 @@ img {
   max-width: 200px;
   max-height: 200px;
   margin: 0 auto;
-  align-items: center;
-
+  text: center;
 }
 
 @media (max-width: 960px) {
-  body {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
-  body {
-    width: 500px;
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
   }
 }
 @media (max-width: 540px) {
-  body {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
     width: 300px;
   }
 }
 
+@media (max-width: 400px) {
+  .container {
+    width: 200px;
+  }
+}
+
+@media (max-width: 300px) {
+  .container {
+    width: 100px;
+  }
+}
+
+@media (max-width: 200px) {
+  .container {
+    width: 50px;
+  }
+}
